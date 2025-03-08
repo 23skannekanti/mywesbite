@@ -18,7 +18,7 @@ const EducationSection = () => {
       degree: "Bachelors in Data Analytics, Business",
       school: "The Ohio State University",
       mascot: "📘",
-      achievements: ["GPA: 3.81", "Subject: Data Analytics"],
+      achievements: ["GPA: 3.73", "Subject: Data Analytics"],
       skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
       description:
         "Focused on database systems, data structures and algorithms, software development, and AI-driven analytics, with applications in cloud computing and automation.",
