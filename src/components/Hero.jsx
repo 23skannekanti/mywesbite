@@ -96,6 +96,8 @@ const profile = {
             <Meteors number={10} />
           </div>
 
+            {/* Main content container */}
+          <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between relative z-10 py-12 lg:py-0">
             {/* Left column - Text content */}
             <div className="w-full lg:w-1/2 mb-12 lg:mb-0 animate__animated animate__fadeInLeft relative">
               {/* Decorative blurs */}
@@ -165,6 +167,24 @@ const profile = {
                   </span>
                 </a>
               </div>
+
+              /*{/* Floating badges */}
+              <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
+                <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
+                  <i className="fas fa-wand-magic-sparkles"></i>&nbsp;&nbsp; Performance Optimized
+                </div>
+              </div>
+              <div className="hidden lg:block absolute right-10 top-20 animate-float">
+                <div className="px-4 py-2 rounded-lg bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 text-blue-400">
+                  <i className="fas fa-code"></i>&nbsp;&nbsp; AI Enthusiast
+                </div>
+              </div>
+              <div className="hidden lg:block absolute top-[17rem] left-[70%] transform -translate-x-1/2 animate-float">
+                <div className="px-4 py-2 rounded-lg bg-amber-500/10 backdrop-blur-sm border border-amber-500/20 text-amber-400">
+                  <i className="fas fa-lightbulb"></i>&nbsp;&nbsp; Detail-Oriented
+                </div>
+              </div>
+            </div>
 
             {/* Right column - Code window */}
             <div className="w-full lg:w-1/2 animate__animated animate__fadeInDown animate__delay-0.1s">
